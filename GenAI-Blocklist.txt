@@ -2095,7 +2095,7 @@ askubuntu.com,mathoverflow.net,serverfault.com,stackexchange.com,stackoverflow.c
 ! -- https://beta.stackoverflow.com/ (Beta homepage)
 ! "AI Assist" text prompt
 beta.stackoverflow.com##.d-flex.g8.mb12
-beta.stackoverflow.com##.wmx7.w100.mb24
+beta.stackoverflow.com##.w100.bg-white.mb24
 ! "AI Assist" button in left sidebar
 beta.stackoverflow.com##.s-navigation > li:has(> [href="/ai-assist"])
 
