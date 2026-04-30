@@ -59,6 +59,12 @@ gitlab.com##.participants [data-username="GitLabDuo"]
 admin.google.com###node-N19-47803731
 
 ! ===================
+! == Google Design ==
+! ===================
+! AI category for search
+design.google##[data-testid="search-bar"]:has(> [name="ai"])
+
+! ===================
 ! == Google Search ==
 ! ===================
 ! -- https://www.google.com/
