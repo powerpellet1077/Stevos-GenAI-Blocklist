@@ -2312,9 +2312,18 @@ web.whatsapp.com##.x1y332i5.x1n2onr6.x6ikm8r.x10wlt62.x1tiyuxx > div.x10l6tqk.xh
 ! ===================
 ! == Wolfram Alpha ==
 ! ===================
-! -- https://www.wolframalpha.com/input?i2d=true&i=y%3Df%5C%2840%29x%5C%2841%29%3B+%5C%2891%290+%3C+x+%3C+72%5C%2893%29%3B+x+%E2%88%83+%E2%84%A4
-! Add for ChatGPT book
+! -- https://www.wolframalpha.com/
+! LLM Solutions in footer
+www.wolframalpha.com##.sc-f328ba4c-0:has(> [href="https://www.wolfram.com/resources/tools-for-AIs/"])
+www.wolframalpha.com##.sc-f328ba4c-0:has(+ .sc-f328ba4c-0 > [href="https://www.wolfram.com/resources/tools-for-AIs/"])::after
+
+! -- https://www.wolframalpha.com/input?i=dx
+! Sidebar promos (randomized)
+! * Covers adrefs 651, 666, 800, 825, 906, 907, and 908
 www.wolframalpha.com##.sc-fc1b1463-0:has(> [href^="https://www.amazon.com/What-ChatGPT-Doing-Does-Work/dp/1579550819"])
+www.wolframalpha.com##.sc-fc1b1463-0:has(> [href^="https://www.wolfram.com/notebook-assistant-llm-kit"])
+www.wolframalpha.com##.sc-fc1b1463-0:has(> [href^="https://www.wolfram.com/language/core-areas/machine-learning"])
+www.wolframalpha.com##.sc-fc1b1463-0:has(> [href^="https://www.wolfram.com/artificial-intelligence"])
 
 ! ===================
 ! == Woman's World ==
