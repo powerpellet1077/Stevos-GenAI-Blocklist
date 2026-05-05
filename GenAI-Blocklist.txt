@@ -545,15 +545,13 @@ www.ebay.com##.srp-river-answer--FAQ_KW_SRP_MODULE
 ! == Ecosia ==
 ! ============
 ! -- https://www.ecosia.org/ (Homepage)
-! "AI Search" button in header bar
-www.ecosia.org##[data-test-id="ai-search-button"]
-! "AI Search" button in search bar
-www.ecosia.org##button[data-test-id="omnibox-search-form-ai-search"]
+! "AI Chat" in search bar
+www.ecosia.org##.omnibox-search-form__ai-chat
 
 ! -- https://www.ecosia.org/search?q=test (Search results)
-! "AI Search" & separator in navbar below search bar
-www.ecosia.org##.search-navigation__item[data-test-id="search-navigation-item-ai_search"]
-www.ecosia.org##.search-navigation__divider:has(+ .search-navigation__item[data-test-id="search-navigation-item-ai_search"])
+! "AI Chat" & separator in navbar
+www.ecosia.org##[data-test-id="search-navigation-item-chat"]
+www.ecosia.org##.search-navigation__divider:has(+ [data-test-id="search-navigation-item-chat"])
 
 ! ================
 ! == Emojipedia ==
