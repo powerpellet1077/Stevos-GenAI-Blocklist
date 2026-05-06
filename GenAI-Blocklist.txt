@@ -2697,7 +2697,7 @@ rule34.us##.thumbail-container > div:has(img:is([title^="ai,"], [title*=", ai,"]
 hentai.name,nhentai.net###content > .container.index-container > .gallery:has-text(/(ai generated|ai-generated|aigenerated)/i)
 
 ! "AI Jerk off" Banner
-gelbooru.com##div[style="padding\: 20px; font-size\: 1.2em; font-weight\: bold;"]:has(> a[href="https://v4.dvdstr.com/1868c386-24d9-4fdc-b213-73d6e1f61423"])
+gelbooru.com##div[style="padding\: 20px; font-size\: 1.2em; font-weight\: bold;"]:has(> [target="_blank"])
 nhentai.net##.desktop > [href="//tsyndicate.com/api/v1/direct/e220320bd2e542b8a2ab7cd2c5a9df8c?"]
 rule34video.com##.button_fav.ai
 
