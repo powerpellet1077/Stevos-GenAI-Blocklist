@@ -1530,6 +1530,17 @@ www.linkedin.com##div.pvs-entity__secondary-action-container:has(svg[data-test-i
 ! Ask Mailchimp Assistant
 mailchimp.com##.genAIAssistChatbotModule
 
+! ==============
+! == Medscape ==
+! ==============
+! AI Mode in search bar
+emedicine.medscape.com##.ai-mode-button
+emedicine.medscape.com##.header-row-bottom #search-input:style(width: 85% !important)
+
+! -- https://emedicine.medscape.com/article/773203-overview
+! Ask Medscape AI button
+emedicine.medscape.com###ai-content-wrapper
+
 ! =====================
 ! == Merriam Webster ==
 ! =====================
