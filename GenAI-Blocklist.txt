@@ -2101,6 +2101,10 @@ stackoverflow.com###mainbar > div.wmx7.w100.bg-white.mb24:has(textarea#ask-stack
 ! Left sidebar > AI Assist
 askubuntu.com,mathoverflow.net,serverfault.com,stackexchange.com,stackoverflow.com,superuser.com###nav-askstack
 
+! -- https://stackoverflow.com/questions
+! Collective for OpenAI
+stackoverflow.com##.js-gps-related-tags:has([href="/collectives/openai"])
+
 ! ===============
 ! == Startpage ==
 ! ===============
