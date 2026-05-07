@@ -1810,7 +1810,7 @@ www.nate.com##.chat1
 ! ======================================
 ! -- https://www.nus.edu.sg/commencement/ceremonies/schedule-ceremonies.html
 ! Chatbot
-www.nus.edu.sg###copilotWrapper
+||azurefd.net/cdns/copilot_v3.min.js$script,domain=nus.edu.sg
 
 ! ==========
 ! == NDTV ==
