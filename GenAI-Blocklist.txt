@@ -621,6 +621,13 @@ fandom.com##section.trfc161
 ! AI chatbot
 www.g2.com###g2-ai-chat-application
 
+! =============
+! == G4Media ==
+! =============
+! -- https://www.g4media.ro/
+! AI Chat
+||chat.g4media.org^
+
 ! ===============
 ! == Gigasheet ==
 ! ===============
