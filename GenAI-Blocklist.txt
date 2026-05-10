@@ -1368,6 +1368,14 @@ hinative.com##.answer_parts_block:has(> .ai_answer)
 ! "Magic Apron Assist" floating button
 www.homedepot.com###magic-apron-loader
 
+! -- https://www.homedepot.com/p/RYOBI-ONE-HP-18V-Brushless-20-in-Cordless-Battery-Walk-Behind-Self-Propelled-Lawn-Mower-w-2-6-0-Ah-Batteries-and-Chargers-PBLLM05K2/331594975
+! "Ask about this product" propmpt
+www.homedepot.com###product-section-magic-apron-qa-bot
+! "You will also need these" section
+www.homedepot.com###beyond_bought_together
+! Review summary
+www.homedepot.com###magic-apron-review-summary
+
 ! ===========================
 ! == How-To Geek/The Gamer ==
 ! ===========================
