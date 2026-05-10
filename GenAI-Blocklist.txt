@@ -2301,6 +2301,17 @@ developer.vonage.com##.ai-icon-group
 ! "Copy for LLM" button
 developer.vonage.com##[data-testid="copy-llm-btn"]
 
+! =============
+! == Walmart ==
+! =============
+! -- https://www.walmart.com/ip/Lux-Decor-Collection-5-Piece-Queen-Down-Alternative-Comforter-Set-Washable-Duvet-Bedding-Set-Quatrefoil-Navy/747152652
+! Key item features
+www.walmart.com###top-highlights-module
+! Reviews summary (next to product)
+www.walmart.com##[data-dca-id="M:0CE1E0FA16"]
+! Reviews summary (above reviews)
+www.walmart.com##[data-dca-id="M:FBA265A361"]
+
 ! =====================
 ! == Washington Post ==
 ! =====================
