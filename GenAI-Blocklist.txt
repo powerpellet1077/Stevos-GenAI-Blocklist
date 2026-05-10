@@ -163,6 +163,13 @@ www.baidu.com##.se-main-tab-item[data-pd="csaitab"]
 ! TODO: Filter AI summary box
 !       It's unclear if all content in this box is AI generated. However, it has an AI logo.
 
+! ==============
+! == Best Buy ==
+! ==============
+! -- https://www.bestbuy.com/product/apple-watch-series-11-gps-46mm-jet-black-aluminum-case-with-black-sport-band-m-l-jet-black-2025/JJGCQLXQLL
+! Review summary
+www.bestbuy.com##[data-component-name="AiReviewSummary"]
+
 ! ==========
 ! == Bing ==
 ! ==========
