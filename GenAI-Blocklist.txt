@@ -2641,6 +2641,8 @@ yep.com##.css-1k0ztkl-button
 ! -- https://www.youtube.com/ (Homepage - logged in)
 ! "Your custom home" chip
 www.youtube.com##yt-chip-cloud-chip-renderer.ytd-feed-filter-chip-bar-renderer:has(.ytChipShapeStartIconPadding)
+! Custom feed chip. Enabled on https://www.youtube.com/new
+www.youtube.com###chip-shape-container:has-text("Your custom feed")
 ! "Ask for videos any way you like"
 www.youtube.com##ytd-talk-to-recs-flow-renderer
 ! Ask YouTube (Test for premium users, https://www.youtube.com/new)
