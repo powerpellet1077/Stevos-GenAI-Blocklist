@@ -46,7 +46,8 @@ If the above instructions didn't work, (possibly due to multiple adblockers bein
 - Open the Filters tab, go to "Custom", and click the "extension settings" link.
 - Enable "Allow User Scripts".
 - Return to this page and left-click [this link](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt&title=Stevo's%20GenAI%20Blocklist).
-- Under "Add custom filter", hit "Next" then "Add"
+- Under "Add custom filter", hit "Next".
+- Check the "Trusted" box then hit "Add".
 
 ### Brave (Desktop)
 - Open _Settings > Shields > Content filtering_.
@@ -124,8 +125,8 @@ These filters hide AI elements. In some cases this may stop the generation. For 
 ### How many websites have filters for AI features?
 Over 200.
 
-### Why do some filters show an error "*Invalid filter: Filter requires trusted source*"?
-A small number of filters, (6 at the time of writing), use features that require trusted origin filters. Trusted filters are disabled by default in uBlock Origin for security reasons, as they allow directly executing code on webpages.
+### Why do some filters show an error "*Invalid filter: Filter requires trusted source*" in uBlock Origin?
+A small number of filters, (6 at the time of writing), use features that require trusted origin filters in uBlock Origin. Trusted filters are disabled by default in uBlock Origin for security reasons, as they allow directly executing code on webpages.
 
 This list requires trust to:
 * Replace "Search or ask a question" text on GitHub Docs and YouTube.
@@ -137,7 +138,10 @@ To be clear, ***you do not need to mark this list as trusted to use a majority o
 ### Why do YouTube videos still sometimes play AI dubbed audio tracks?
 The filter for automatic dubbing on YouTube does not work when opening a video via direct URL. (IE: Entering the address directly in your browser's URL bar). It will work when clicking a video while already on YouTube, such as on YouTube's homepage, search results, or suggested videos.
 
-The [extra filter list](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist-Extra.txt) has a filter that works when loading directly from URL, but it requires allowing trusted filters to run, ([see above FAQ entry](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist#why-do-some-filters-show-an-error-invalid-filter-filter-requires-trusted-source)), and causes a visible page refresh whenever a video is loaded directly via URL. 
+The [extra filter list](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist-Extra.txt) has a filter that works when loading directly from URL, but it requires allowing trusted filters to run, ([see above FAQ entry](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist#why-do-some-filters-show-an-error-invalid-filter-filter-requires-trusted-source-in-ublock-origin)), and causes a visible page refresh whenever a video is loaded directly via URL. 
+
+### Why are trusted filters required in AdGuard but not uBlock Origin?
+Some filters use [scriptlets](https://github.com/AdguardTeam/Scriptlets/blob/master/wiki/about-scriptlets.md) to block AI items. (YouTube autodubbing, TikTok videos with AI, etc). The documentation for uBlock Origin and [AdGuard](https://github.com/AdguardTeam/Scriptlets#-trusted-scriptlets) say trusted permission should only be needed for scriptlets that start with  `trusted-`. However, for some reason several "regular" scriptlets in AdGuard seem to only work with trusted filters. This also means these filters do not work on AdGuard for iOS, since it doesn't have an option for trusted filters.
 
 ## Contributing guidelines
 
