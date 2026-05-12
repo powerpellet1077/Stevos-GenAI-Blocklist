@@ -24,7 +24,7 @@
 ! Unified Access AI agent banner
 1password.com##.header-navigation__nav-banner-link[href="/product/unified-access"] > .box-decoration-clone
 ! AI promo
-1password.com##[data-testid="text-lockup"] .w-full.space-y-6.text-balance:has-text("Secure access for every human and AI agent")
+1password.com##[data-testid="text-lockup"] .w-full.space-y-6.text-balance:has-text(Secure access for every human and AI agent)
 
 ! =================
 ! == ACS Courier ==
@@ -42,7 +42,7 @@ www.adobe.com##.brand-concierge.hero.above-pods
 
 ! -- https://www.adobe.com/home (logged in)
 ! Promo bar for Firefly
-www.adobe.com##.promobar:has-text("Adobe Firefly")
+www.adobe.com##.promobar:has-text(Adobe Firefly)
 ! Image generation prompt
 www.adobe.com###promptbar-form
 ! Loading placeholder for image generation prompt
@@ -204,13 +204,13 @@ www.bing.com###b_copilot_search_container
 
 ! -- https://www.bing.com/shop/
 ! Copilot price drop notifications (top)
-www.bing.com##.slide:has(.gtxmd-cm.button.lkmd-cm:has-text("Try it on Copilot"))
+www.bing.com##.slide:has(.gtxmd-cm.button.lkmd-cm:has-text(Try it on Copilot))
 ! Copilot suggestion cards
 www.bing.com##.conversation_starters
 ! Udemy ad for AI skills
 www.bing.com##.editorial-promo-card:has(> [aria-label^="Advance your AI skills"])
 ! Copilot price insignhts (bottom)
-www.bing.com###ShoppingLandingPage_ShoppingEducation:has-text("Try it on Copilot")
+www.bing.com###ShoppingLandingPage_ShoppingEducation:has-text(Try it on Copilot)
 
 ! ===============
 ! == Bloomberg ==
@@ -338,9 +338,9 @@ www.canva.com##[role="tabpanel"] .Ka9auQ > .aDc6Yg:has(> .UfYDHQ > .YVd8lA > .MC
 ! Sidebar,  Apps > "AI generation" category filter
 www.canva.com##[role="tabpanel"] [role="tablist"] div:has(> [id$="_-tab-ai-generation"])
 ! Sidebar, Apps > "AI generation" section
-www.canva.com##[role="tabpanel"] .GcyWAw > .jv_R6g > div:has( .liTStw.aZskFA.u16U_g.snQKTg:has-text("AI generation"))
+www.canva.com##[role="tabpanel"] .GcyWAw > .jv_R6g > div:has( .liTStw.aZskFA.u16U_g.snQKTg:has-text(AI generation))
 ! Sidebar, Apps > Magic Media
-www.canva.com##[role="tabpanel"] .GArQ9w.TOWefw > li:has-text("Magic Media")
+www.canva.com##[role="tabpanel"] .GArQ9w.TOWefw > li:has-text(Magic Media)
 ! Sidebar, "Magic Media" tab
 www.canva.com##.HqCA9g:has(> [role="tab"] > [aria-label="Magic Media"])
 ! Replace "Start typing" text on blank document
@@ -362,7 +362,7 @@ www.canva.com##.SymshQ.BMOCzQ.LuBWVA:has([src="https://template.canva.com/EAHBDm
 ! =============
 ! -- https://chatgpt.com/
 ! Floating "Get Plus" promo on top of page
-chatgpt.com##.button-glimmer-cta:has-text("Get Plus"):upward(1)
+chatgpt.com##.button-glimmer-cta:has-text(Get Plus):upward(1)
 
 ! ===========================
 ! == Chrome for Developers ==
@@ -482,7 +482,7 @@ www.deviantart.com###backgroundIcon
 
 ! -- https://www.deviantart.com/megalevance/art/Untitled-959302716 (Deviation page for AI image)
 ! Hide image if "Created using AI tools" notice exists
-www.deviantart.com##.usPswk:has-text("Created using AI tools"):upward(3) > .ymztWQ
+www.deviantart.com##.usPswk:has-text(Created using AI tools):upward(3) > .ymztWQ
 ! Bottom promo banner, sometimes has a DreamUp ad (Possibly removed?)
 ! * TODO: Allow non-DreamUp promos
 www.deviantart.com##div.VS2KXS.KQfkEY
@@ -875,7 +875,7 @@ about.gitlab.com##[data-ga-name="ai-assisted development"], [data-ga-name="ai fo
 gitlab.com##.ai-panels
 ! Duo items in "What's new at GitLab" sidebar
 ! * Accessed via "What's new" button in left sidebar
-gitlab.com##[data-testid="whats-new-article-toggle"]:has-text("GitLab Duo"):upward(1)
+gitlab.com##[data-testid="whats-new-article-toggle"]:has-text(GitLab Duo):upward(1)
 
 ! -- https://gitlab.com/ (Group/Project issue pages - logged in)
 ! "View summarize" button
@@ -1172,7 +1172,7 @@ www.google.com##[jsaction="navigationrail.askMaps"]
 ! -- https://meet.google.com/landing?hs=193&pli=1
 ! "Express yourself with an AI-Generated background" promo
 ! * Seemingly only appears once per-user
-meet.google.com##div[jsshadow][jscontroller="dGzwdb"]:has-text("Express yourself with an AI-generated background")
+meet.google.com##div[jsshadow][jscontroller="dGzwdb"]:has-text(Express yourself with an AI-generated background)
 
 ! ================
 ! == Google One ==
@@ -1210,7 +1210,7 @@ www.google.com,www.google.*###mlogo[href*="&udm=50"]:remove-attr(href)
 www.google.com,www.google.*#%#//scriptlet('remove-attr', 'href', '#mlogo[href*="&udm=50"]')
 ! Promo text below search bar mentioning AI
 www.google.com,www.google.*##promo-middle-slot:has-text("/\bAI\b/")
-www.google.com,www.google.*##promo-middle-slot:has-text("Gemini")
+www.google.com,www.google.*##promo-middle-slot:has-text(Gemini)
 ! Footer - "Applying AI towards science and the environment"
 www.google.com,www.google.*##.pHiOh[href="https://ai.google/societal-impact/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer"]
 ! Search bar - AI button (magnifying glass icon, mobile only)
@@ -1349,7 +1349,7 @@ docs.google.com###content-library-rail-image-synthesis-element, #content-library
 ! * Appears when selecting an audio track on the timeline
 docs.google.com##div.goog-toolbar-button.appsFlixPluginsTimelineAudioItemToolbarButton[data-tooltip="Generate a voiceover"]
 ! Upgrade sticky banner
-docs.google.com###docs-banner-container:has-text("Upgrade to elevate your videos with AI custom clips with Veo, voiceovers, and more")
+docs.google.com###docs-banner-container:has-text(Upgrade to elevate your videos with AI custom clips with Veo, voiceovers, and more)
 ! Popup promo for video generation in top right
 docs.google.com###video-generation-promo
 ! Header promo for AI upsell
@@ -1362,7 +1362,7 @@ docs.google.com##.javascriptMaterialdesignGm3WizBannerBannerContent[aria-label="
 ! Navbar - AI
 workspace.google.com##.TemplateHeader_headerNavGroup:has(> [data-g-action="ai"])
 ! "Premium AI built-in" section
-workspace.google.com##div._innerGrid_1u063_113 > div._card_1u063_136:has-text("Premium AI built-in")
+workspace.google.com##div._innerGrid_1u063_113 > div._card_1u063_136:has-text(Premium AI built-in)
 ! "Google Workspace includes" section with list of apps ("Gemini" & "NotebookLM")
 ! * Also blocks other cards advertising AI features
 workspace.google.com##gws-card-wrapper:is([href="/solutions/ai/"], [href="/products/notebooklm"])
@@ -1448,8 +1448,8 @@ imgflip.com##.ai
 ! "AI" button below text fields
 imgflip.com##.mm-toggle-ai
 ! FAQ section about AI
-imgflip.com###gen-qa > .gen-q:has-text("Do you have a wacky AI that can write memes for me?")
-imgflip.com###gen-qa > p:has-text("Funny you ask. Why yes, we do. Here you go:")
+imgflip.com###gen-qa > .gen-q:has-text(Do you have a wacky AI that can write memes for me?)
+imgflip.com###gen-qa > p:has-text(Funny you ask. Why yes, we do. Here you go:)
 
 ! =========================
 ! == Indian Startup News ==
@@ -1479,7 +1479,7 @@ www.instagram.com##.xt8cgyo.x13fuv20.x5ur3kl.xn3w4p2.x1nhvcw1.x1oa3qoh.x1qjc9v5.
 ! Left sidebar > Also from meta > AI Studio
 www.instagram.com##.xmzvs34.xwib8y2.xf159sx.x1y1aw1k > div > .x1qrby5j.x7ja8zs.x1t2pt76.x1lytzrv.xedcshv.xarpa2k.x3igimt.x12ejxvf.xaigb6o.x1beo9mf.xv2umb2.x1jfb8zj.x1h9r5lt.x1h91t0o.x4k7w5x.x1vvkbs.x16tdsg8.x1hl2dhg.x1c1uobl.x18d9i69.xyri2b.xexx8yu.x1lziwak.xat24cr.x14z9mp.xdj266r.html-span > .x1n2onr6 > ._a6hd.x4gyw5p.x1a2a7pz.xggy1nq.x1hl2dhg.x16tdsg8.x1c1uobl.x18d9i69.xyri2b.xexx8yu.x1lziwak.xat24cr.x14z9mp.xdj266r.x3ct3a4.xt0psk2.x1ypdohk.x9f619.x14e42zd.x1qhh985.x10w94by.x972fbf.xstzfhl.x1sy0etr.x18oe1m7.x1ejq31n.xjbqb8w.x1i10hfl > .xh8yej3.x1g0dm76.xsag5q8.xpdmqnj.xz9dl7a.x1q0g3np.x6s0dn4.x15x8krk.xde0f50.x5a5i1n.x1obq294.x159b3zp.x80pfx3.x12dmmrz.x7nr27j.x6pnmvc.xo237n4.xjpr12u.xr9ek0c.x3nfvp2.x9f619
 ! Left sidebar > Also from meta > Meta AI
-www.instagram.com##div.xq9evs9 > div > span:has-text("Meta AI")
+www.instagram.com##div.xq9evs9 > div > span:has-text(Meta AI)
 ! Footer > "Meta AI" link
 www.instagram.com##div.html-div.xdj266r.xexx8yu.xyri2b.x18d9i69.x1c1uobl.x9f619.xjbqb8w.x78zum5.x15mokao.x1ga7v0g.x16uus16.xbiv7yw.xod5an3.x13fj5qh.x1xegmmw.x1n2onr6.x1plvlek.xryxfnj.x1c4vz4f.x2lah0s.xdt5ytf.xqjyukv.x1qjc9v5.x1oa3qoh.x1nhvcw1:has(> a.x1fhwpqd.xz5fbns.x1hl2dhg.xb5lr1p.x6mezaz.x1roi4f4[href="https://www.meta.ai/?utm_source=foa_web_footer"])
 
@@ -1548,11 +1548,11 @@ kagi.com##.tip:has-text(Quick Answer)
 ! April Fools Day redesign
 kagi.com##div:has(> b > [href="/summarizer"])
 ! * April 1st Ask Assistant
-kagi.com##td > br:has(+ b:has-text("Have a question? Ask Assistant"))
-kagi.com##td > b:has-text("Have a question? Ask Assistant")
+kagi.com##td > br:has(+ b:has-text(Have a question? Ask Assistant))
+kagi.com##td > b:has-text(Have a question? Ask Assistant)
 kagi.com##td > form[action="/assistant"]
-kagi.com##td > b:has-text("Sample questions:")
-kagi.com##td > b:has-text("Sample questions:") + ul
+kagi.com##td > b:has-text(Sample questions:)
+kagi.com##td > b:has-text(Sample questions:) + ul
 
 ! -- https://kagi.com/search?q=test (Search results)
 ! "Quick Answer" button
@@ -2191,7 +2191,7 @@ www.shopify.com##main#main > section.grid-cols-full#testimonials-section
 www.shopify.com##main#main > section.grid-cols-full#faq-section
 
 ! -- https://www.shopify.com/tools/business-name-generator (AI business name generator)
-www.shopify.com##main#main > div > div.container:has-text("AI Business Name Generator"):has(> div.sm\:px-14.text-center.relative > a[href="/tools"])
+www.shopify.com##main#main > div > div.container:has-text(AI Business Name Generator):has(> div.sm\:px-14.text-center.relative > a[href="/tools"])
 
 ! ========================
 ! == Singapore Airlines ==
@@ -2410,8 +2410,8 @@ vercel.com##button[type="submit"][data-cdp-track*="\"header_ask_ai_clicked\""]
 ! "Ask AI" button in header
 vercel.com##[aria-label="Ask AI"]
 ! "Ask AI about this page" + separator
-vercel.com##.mt-3 button:has-text("Ask AI")
-vercel.com##.mt-3 div:has(+ button:has-text("Ask AI"))
+vercel.com##.mt-3 button:has-text(Ask AI)
+vercel.com##.mt-3 div:has(+ button:has-text(Ask AI))
 
 ! ===========
 ! == Vimeo ==
@@ -2676,7 +2676,7 @@ yep.com##.css-1k0ztkl-button
 ! "Your custom home" chip
 www.youtube.com##yt-chip-cloud-chip-renderer.ytd-feed-filter-chip-bar-renderer:has(.ytChipShapeStartIconPadding)
 ! Custom feed chip. Enabled on https://www.youtube.com/new
-www.youtube.com###chip-shape-container:has-text("Your custom feed")
+www.youtube.com###chip-shape-container:has-text(Your custom feed)
 ! "Ask for videos any way you like"
 www.youtube.com##ytd-talk-to-recs-flow-renderer
 ! Ask YouTube (Test for premium users, https://www.youtube.com/new)
@@ -2758,7 +2758,7 @@ studio.youtube.com##.brainstorm-ideas-button
 
 ! -- Community tab
 ! "Brainstorm video ideas" button in action menu (...) under "Community" > "Comments"
-studio.youtube.com##ytcp-menu-service-item-renderer:has-text("Brainstorm video ideas")
+studio.youtube.com##ytcp-menu-service-item-renderer:has-text(Brainstorm video ideas)
 ! Comment reply suggestions under "Community" > "Comments"
 ! https://support.google.com/youtube/answer/10357396
 studio.youtube.com###comment-smart-replies
@@ -3033,7 +3033,7 @@ hentaifox.com##.thumb[data-tags~="3298"]
 hentaihaven.xxx###menu-item-96519
 ! AI Ads in sidebar
 hentaihaven.xxx##.widget_block:has(.novaads)
-hentaihaven.xxx##.widget_block:has(.wp-block-heading:has-text("AI Hentai"))
+hentaihaven.xxx##.widget_block:has(.wp-block-heading:has-text(AI Hentai))
 
 ! ========================
 ! == Hentai Moon (NSFW) ==
@@ -3237,7 +3237,7 @@ www.pornhub.com##.uploadBtnContentSpicevids
 ! == PornOne (NSFW) ==
 ! ====================
 ! Navbar
-pornone.com##.inline-block.vrazka:has-text("AI Porn")
+pornone.com##.inline-block.vrazka:has-text(AI Porn)
 
 ! ======================
 ! == Porn Dude (NSFW) ==
@@ -3257,7 +3257,7 @@ www.reddvideo.tube##.nav-item:has(> [href="https://www.gptgirlfriend.online/"])
 ! == RedGIFs (NSFW) ==
 ! ====================
 ! -- RedGIFs.ai button in header
-www.redgifs.com##.aTab:has-text("RedGIFs.ai")
+www.redgifs.com##.aTab:has-text(RedGIFs.ai)
 
 ! ====================
 ! == RedTube (NSFW) ==
@@ -3353,7 +3353,7 @@ slushe.com##.ads_container:has(> [href^="https://candyai.gg"])
 ! AI Jerk Off
 spankbang.com##[href="https://deliver.ptgncdn.com/zZo4XEWxKAM12aZuqxkFfGE2d6HQVZhJLh6eC36EqYcCwzM9MKrBfcgJKvMO5kL4I2lBnrC8l"]
 ! AI ad button
-spankbang.com##.ad_button:has-text("AI Porn is here")
+spankbang.com##.ad_button:has-text(AI Porn is here)
 
 ! ======================
 ! == Stripchat (NSFW) ==
