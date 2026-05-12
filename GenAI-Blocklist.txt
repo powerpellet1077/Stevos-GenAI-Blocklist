@@ -1427,6 +1427,14 @@ www.thegamer.com,www.howtogeek.com##.i-sensa
 ! AI summary button in header on small page sizes
 www.thegamer.com,www.howtogeek.com##.action-bar-ai-feature
 
+! ================
+! == HP Support ==
+! ================
+! -- https://virtualagent.hpcloud.hp.com/
+! AI Assist button in initial options list
+virtualagent.hpcloud.hp.com##.ac-actionSet > [aria-label="Chat with HP's SupportGPT for AI Answers"]
+virtualagent.hpcloud.hp.com##.ac-actionSet > [aria-label="Get an AI Answer"]
+
 ! ==========
 ! == IMDB ==
 ! ==========
