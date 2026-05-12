@@ -98,7 +98,7 @@ There is an additional optional filter list [`GenAI-Blocklist-Extra.txt`](https:
 
 ## FAQ
 ### Which adblockers will this filter list work with?
-These filters have been tested with [uBlock Origin](https://github.com/gorhill/ublock#ublock-origin-ubo), [AdGuard](https://adguard.com/en/adguard-browser-extension/overview.html), [AdBlock](https://getadblock.com/), [Adblock Plus](https://adblockplus.org/), and [Brave's](https://brave.com) integrated adblocker.
+These filters were developed for [uBlock Origin](https://github.com/gorhill/ublock#ublock-origin-ubo), but they should also work with [AdGuard](https://adguard.com/en/adguard-browser-extension/overview.html), [AdBlock](https://getadblock.com/), [Adblock Plus](https://adblockplus.org/), and [Brave's](https://brave.com) integrated adblocker.
 
 ### Will this remove sites that post AI generated content from search results?
 No. If you want to block AI sites from search engines, try [laylavish's Huge AI Blocklist](https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist).
@@ -118,9 +118,7 @@ uBlock Origin is not available for Google Chrome and iOS.
 While uBlock Origin Lite exists as an alternative, it [does not support custom filter lists](https://github.com/uBlockOrigin/uBOL-home/issues/167#issuecomment-2271471121). A previous version of this README suggested copying the GenAI filters into uBO Lite's custom filters as a workaround. However, filtering was unreliable, updating required [manually deleting the old filter rules](https://superuser.com/q/1934748/358766), and some filter rules were incompatible.
 
 ### Does this prevent AI content from being generated in the background?
-Sometimes, but usually not.
-
-These filters hide AI elements. In some cases this may stop the generation. For example, if you load [this Google Search page](https://www.google.com/search?q=SQL+What+percentage+of+users+have+accessed+a+group) with filters on, then toggle "cosmetic filtering" off in uBlock Origin, you can see the AI overview won't generate until after it gets unhidden. However, AI content may still be generated in the background on other webpages.
+Probably not. These filters are focused on hiding AI elements. In some cases this may stop the generation. For example, if you load [this Google Search page](https://www.google.com/search?q=SQL+What+percentage+of+users+have+accessed+a+group) with filters on, then toggle "cosmetic filtering" off in uBlock Origin, the AI overview's content seemingly doesn't generate until after it is unhidden. However, AI content may still be generated in the background on other webpages.
 
 ### How many websites have filters for AI features?
 Over 200.
@@ -139,9 +137,9 @@ To be clear, ***if you use uBlock Origin, you do not need to mark this list as t
 Some filters use [scriptlets](https://github.com/AdguardTeam/Scriptlets/blob/master/wiki/about-scriptlets.md) to block AI items. (YouTube autodubbing, TikTok videos with AI, etc). The documentation for uBlock Origin and [AdGuard](https://github.com/AdguardTeam/Scriptlets#-trusted-scriptlets) say trusted permission should only be needed for scriptlets that start with  `trusted-`. However, for some reason "regular" scriptlets in AdGuard seem to only work with trusted filters. This also means these filters do not work on AdGuard for iOS, since it doesn't have an option for trusted filters.
 
 ### Why do YouTube videos still sometimes play AI dubbed audio tracks?
-The filter for automatic dubbing on YouTube does not work when opening a video via direct URL. (IE: Entering the address directly in your browser's URL bar). It will work when clicking a video while already on YouTube, such as on YouTube's homepage, search results, or suggested videos.
+For AdGuard users: There is [a known issue](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/issues/63) with the autodub filter.
 
-The [extra filter list](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist-Extra.txt) has a filter that works when loading directly from URL, but it requires allowing trusted filters to run, ([see above FAQ entry](#why-do-some-filters-show-invalid-filter-filter-requires-trusted-source-in-ublock-origin)), and causes a visible page refresh whenever a video is loaded directly via URL. 
+For uBlock Origin users: The filter for automatic dubbing on YouTube does not work when opening a video via direct URL. (IE: Entering the address directly in your browser's URL bar). It will work when clicking a video while already on YouTube, such as on YouTube's homepage, search results, or suggested videos. The [extra filter list](https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist-Extra.txt) has a filter that works when loading directly from URL, but it requires allowing trusted filters to run, ([see above FAQ entry](#why-do-some-filters-show-invalid-filter-filter-requires-trusted-source-in-ublock-origin)), and causes a visible page refresh whenever a video is loaded directly via URL.
 
 ## Contributing guidelines
 
