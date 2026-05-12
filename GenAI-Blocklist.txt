@@ -2384,6 +2384,13 @@ member.uhc.com##[data-test-id="global-nav-ask-ai"]
 ups.com###digital-assistant-launcher
 ups.com###WACContainer
 
+! ===========
+! == Vanta ==
+! ===========
+! Vanta agent in header
+! * This rule was made on account with agent disabled. Untested on account with it enabled.
+app.vanta.com##.sc-hwdzOV.gtCrLk
+
 ! ============
 ! == Vercel ==
 ! ============
