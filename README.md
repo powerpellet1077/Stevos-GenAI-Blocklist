@@ -94,7 +94,7 @@ There is an additional optional filter list [`GenAI-Blocklist-Extra.txt`](https:
 * X: Posts made by @Grok.
 * AI category section on news sites (Just the category, not posts covering AI).
 * Customer support chatbots that must be used before you can contact human customer support.
-* YouTube: Trusted filter to remove autodubbing when loading video directly from URL, but causes visible page refresh even on videos without autodubbing.
+* YouTube: Trusted filter to remove autodubbing when loading a video directly via URL, but causes visible page refresh even on videos without autodubbing.
 
 ## FAQ
 ### Which adblockers will this filter list work with?
