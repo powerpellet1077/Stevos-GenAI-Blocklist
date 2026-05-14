@@ -1232,8 +1232,11 @@ www.google.com,www.google.*##.YNk70c.EjQTId:has(+ div [data-attnms]) #oFNiHe:emp
 ! * Fix conflict with laylavish's AI blocklist
 !   See https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/issues/52
 www.google.com#@#.YzCcne:remove()
-! "People also ask" options with AI overviews
+! "People also ask" questions with AI overviews
 www.google.com,www.google.*##[jsname="YrZdPb"]:not(:has(.Sbgr0))
+! * Hide section if all questions are AI
+www.google.com,www.google.*##[jsname="bq0EGf"]:has([jsname="YrZdPb"]):not(:has([jsname="YrZdPb"] .Sbgr0)
+
 ! Web Guide
 ! * Only applies if Web Guide is enabled in Google Labs
 www.google.com,www.google.*##.oGdvd
