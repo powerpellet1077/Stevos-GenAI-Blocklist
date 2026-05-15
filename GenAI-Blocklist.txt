@@ -1613,6 +1613,19 @@ langfuse.com##[role="menuitem"][href^="https://claude.ai"]
 ! "Ask AI" in sidebar
 langfuse.com##._flex-col:has(> [href="/docs/ask-ai"])
 
+! =================
+! == Law Insider ==
+! =================
+! -- https://www.lawinsider.com/dictionary/low-priority
+! AI Assistant in navbar
+www.lawinsider.com##[event-value="ai-assistant"]
+! Floating AI assistant button
+www.lawinsider.com##[data-trigger-paywall-id="AI_ASSISTANT"]
+! "Draft with AI"
+www.lawinsider.com##.mdc-button:has(> [src$="AI-sparks-dark-min.svg"])
+! AI-Powered Contracts promo
+www.lawinsider.com##.zKcZVDrbtr
+
 ! ==============
 ! == LinkedIn ==
 ! ==============
