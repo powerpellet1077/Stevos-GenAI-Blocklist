@@ -95,7 +95,7 @@ www.amazon.*###nav-rufus-disco
 ! Health AI in navbar
 www.amazon.*##.nav-li:has([data-csa-c-content-id$="_cs_health_ai"])
 ! AI questions in autocomplete search suggestions
-www.amazon.*###sac-autocomplete-results-container [role="row"]:has(> .s-suggestion-nile-desktop-container)
+www.amazon.*##+js(json-prune, suggestions.[-].metadata.RufusSuggestionType)
 
 ! -- https://www.amazon.com/Celeste-Nintendo-Switch-Digital-Code/dp/B079Z1LPSP (Product page)
 ! Rufus button that appears when highlighting text
