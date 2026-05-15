@@ -1617,6 +1617,8 @@ langfuse.com##._flex-col:has(> [href="/docs/ask-ai"])
 ! == Law Insider ==
 ! =================
 ! -- https://www.lawinsider.com/dictionary/low-priority
+! Focus search bar - Try AI Assistant Search
+www.lawinsider.com##.navsuggest-list-item-assistant
 ! AI Assistant in navbar
 www.lawinsider.com##[event-value="ai-assistant"]
 ! Floating AI assistant button
@@ -1625,6 +1627,11 @@ www.lawinsider.com##[data-trigger-paywall-id="AI_ASSISTANT"]
 www.lawinsider.com##.mdc-button:has(> [src$="AI-sparks-dark-min.svg"])
 ! AI-Powered Contracts promo
 www.lawinsider.com##.zKcZVDrbtr
+
+! -- https://www.lawinsider.com/search?q=Test
+! ClauseFinder & AI Column chips
+www.lawinsider.com##.mdc-menu-surface--anchor:has([data-trigger-paywall-id="CLAUSE_FINDER"])
+www.lawinsider.com##.mdc-menu-surface--anchor:has(> [data-trigger-paywall-id="AI_SEARCH_COLUMNS"])
 
 ! ==============
 ! == LinkedIn ==
