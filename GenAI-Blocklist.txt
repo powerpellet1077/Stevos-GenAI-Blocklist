@@ -2221,6 +2221,14 @@ www.sephora.com##[data-comp~="AIBeautyChatDrop"]
 www.sephora.com##[comps="Divider"]:has(+ .css-1drm495[data-comp~="ProductPage"])
 www.sephora.com##.css-1drm495[data-comp~="ProductPage"]
 
+! ===================
+! == Shop The Mint ==
+! ===================
+! Floating AI Chat box
+shopthemint.com##.fb_iframe_widget
+! "What are you looking for" reminder banner that appears after inactivity
+shopthemint.com###ai-chat-plugin-banner-container
+
 ! =============
 ! == Shopify ==
 ! =============
