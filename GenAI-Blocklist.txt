@@ -2658,7 +2658,11 @@ wordpress.com##.icon-list-item:has(.components-button[href="https://wordpress.co
 ! ===============
 ! == X/Twitter ==
 ! ===============
-! -- Homepage (x.com)
+! -- https://x.com/ (logged out)
+! Grok in footer
+x.com##[role="navigation"] > .r-o59np7:has(> [href="https://grok.com/"])
+
+! -- https://x.com/home
 ! Sidebar - Grok
 x.com##nav > [href="/i/grok"]
 ! Compose post - Grok
