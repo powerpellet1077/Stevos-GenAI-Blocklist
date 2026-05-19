@@ -94,6 +94,10 @@ alphacoders.com##.item:has(.thumb-tag-masonry:is([href="https://alphacoders.com/
 www.amazon.*###nav-rufus-disco
 ! Health AI in navbar
 www.amazon.*##.nav-li:has([data-csa-c-content-id$="_cs_health_ai"])
+! Navbar > Medical Care - AI elements
+www.amazon.com##.health-ai-header
+www.amazon.com##.ask-health-ai-section 
+www.amazon.com##.ahi-health-ai-content > .banner-pills-container
 ! AI questions in autocomplete search suggestions
 www.amazon.*##+js(json-prune, suggestions.[-].metadata.RufusSuggestionType)
 
@@ -117,6 +121,16 @@ www.amazon.*###nav-flyout-rufus[data-state="expanded"]
 health.amazon.com###nav-health-ai
 ! "Health AI" promo section
 health.amazon.com##.bg-no-repeat[style*="background-image:url('https://m.media-amazon.com/images/G/01/ahs/health_ai/opt-in/HealthAI_Background_CDF0E9.jpg');"]
+
+! -- https://health.amazon.com/onemedical
+! "Health AI" in navbar
+health.amazon.com##.pui-sub-nav-health-ai-button
+! Header bar
+health.amazon.com##.link-container[href^="https://health.amazon.com/prime/onemedical/membership/health-ai/"]
+! "Ask Health AI" (logged in)
+health.amazon.com##.flex-container.margin-bottom-small > .flex-justify-content-flex-start.ap-container-nowrap:has(#health-ai-ask-widget)
+! "Get started with Health AI" (Logged in)
+health.amazon.com##[data-hcr-token-id="{{health.ai.widget.upsell.banner}}"]
 
 ! =====================
 ! == American Banker ==
