@@ -2389,6 +2389,20 @@ webmail.strato.de##[aria-label="KI-Integration"]
 ! "AI-Chat" app link in app menu
 webmail.strato.de##[data-app-name="io.ox/ai-chat"]
 
+! ==================
+! == SuperSummary ==
+! ==================
+! -- https://www.supersummary.com/game-changer-shusterman/summary/
+! Generate questions button
+www.supersummary.com##.MuiButtonBase-root:has(> [aria-label="Generate Discussion Questions"])
+! Sidebar - Story recap & Quizzes
+www.supersummary.com##[data-testid="story-recap-desktop-card"]
+www.supersummary.com##.MuiButtonBase-root[href$="#ai-tools-page-header"]
+! Sidebar - Reading tools 
+www.supersummary.com##.edk5i7v1:has([data-testid="AutoFixHighOutlinedIcon"])
+! Floating "Ask SuperSummary" button
+www.supersummary.com##.e1jtsgu01:has(> [src="/ai-assistant-icon.svg"])
+
 ! ============
 ! == Target ==
 ! ============
