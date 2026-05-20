@@ -656,6 +656,8 @@ www.facebook.com##div.x78zum5.xdt5ytf.x1iyjqo2.x1us19tq > div.x1iyjqo2 > div > u
 www.facebook.com##div.xwib8y2.x1y1aw1k > div > ul.x1hc1fzr > li > div > div > div > a[role="link"][href="/messages/t/36327,2227039302/"]
 ! Compose post > Generate images button
 www.facebook.com##div[aria-label="Generate images using AI"]
+! Ads for AI product (Mobile only)
+facebook.com##[data-dcm-id="1"]:has(.rtl-ignore.f2.a:has-text(/(Adobe Firefly|Meta AI)/))
 
 ! -- https://www.facebook.com/groups/derbyposting/posts/1439861650942811 (Group post - logged out)
 ! AI post summary
