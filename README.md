@@ -123,6 +123,9 @@ Probably not. These filters are focused on hiding AI elements. In some cases thi
 ### How many websites have filters for AI features?
 Over 250.
 
+### Where can I find a full list of filtered items?
+Check [`GenAI-Blocklist.txt`](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/blob/main/GenAI-Blocklist.txt) and [`GenAI-Blocklist-Extra.txt`](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/blob/main/GenAI-Blocklist-Extra.txt).
+
 ### Why do some filters show "*Invalid filter: Filter requires trusted source*" in uBlock Origin?
 A small number of filters use features that require trusted origin filters in uBlock Origin. Trusted filters are disabled by default in uBlock Origin for security reasons, as they allow directly executing code on webpages.
 
