@@ -1625,6 +1625,13 @@ kahoot.com##.menu-item:has(> [href^="https://kahoot.com/kahoot-study/notes-to-fl
 ! AI Assisted tools to get started
 discover.kahoot.it##[data-functional-selector="native-carousel-item"]:has([class^="styles_AiAssisted__"])
 
+! ==================
+! == Karma Search ==
+! ==================
+! -- https://karmasearch.org/search?q=test
+! Navbar > Try with.. > AI
+karmasearch.org###search-other-menu .flex-col:has([src="/_nuxt/img/ai.85b95e0.svg"])
+
 ! ============
 ! == Kiehls ==
 ! ============
