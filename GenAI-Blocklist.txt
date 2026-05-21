@@ -2497,6 +2497,19 @@ www.target.com##[data-test="questionUserNickname"]:has-text(AI Shopping Assistan
 ! Review summary
 www.target.com##div:has(> [data-test="review-summary-title"])
 
+! ===============
+! == TestMu AI ==
+! ===============
+! -- https://www.testmuai.com/blog/css-has-selector/
+! Promo at top of article
+www.testmuai.com##section:has(> [src="https://assets.testmuai.com/resources/images/testmu-ai/common/Vector.svg"])
+! Floating AI button
+www.testmuai.com##ai-seller-widget
+! Open in AI links in sidebar
+www.testmuai.com##.w-\[265px\].flex-shrink-0.desktop\:hidden > div > [title^="Open in "]
+! Sidebar ad
+www.testmuai.com##.w-\[265px\].flex-shrink-0.desktop\:hidden .mt-20.flex-shrink-0
+
 ! ===================
 ! == The New Stack ==
 ! ===================
