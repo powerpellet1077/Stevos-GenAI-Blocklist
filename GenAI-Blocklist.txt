@@ -2324,6 +2324,10 @@ www.singaporeair.com##chat-bot-button + .dwc--SiaHeader__WhiteSeparator
 ! AI navbar tab
 sogou.com##.searchnav > li:has(> #sogou_aimode)
 
+! -- https://www.sogou.com/sogou?pid=sogou-wsse-ff111e4a5406ed40&insite=zhihu.com&query=%E6%B2%B9%E4%BB%B7%E4%BB%8A%E6%99%9A%E4%B8%8A%E8%B0%83%20%E5%8A%A0%E6%BB%A1%E4%B8%80%E7%AE%B1%E5%A4%9A%E8%8A%B13%E5%85%83
+! AI summary
+www.sogou.com##.reactResult
+
 ! =============
 ! == Spotify ==
 ! =============
