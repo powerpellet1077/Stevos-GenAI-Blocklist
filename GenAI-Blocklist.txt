@@ -99,6 +99,7 @@ www.amazon.*##.health-ai-header
 www.amazon.*##.ask-health-ai-section 
 www.amazon.*##.ahi-health-ai-content > .banner-pills-container
 ! AI questions in autocomplete search suggestions
+! * Recieved from `https://www.amazon.com/suggestions`
 www.amazon.*##+js(json-prune, suggestions.[-].metadata.RufusSuggestionType)
 
 ! -- https://www.amazon.com/Celeste-Nintendo-Switch-Digital-Code/dp/B079Z1LPSP (Product page)
