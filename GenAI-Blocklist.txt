@@ -779,9 +779,9 @@ github.com##[id$="-tab-copilot_chat_custom_instructions"]:has(.octicon-eye-close
 ! * FIXME: Leaves separator line if spot 1 is hidden but not spot 2
 ! * FIXME: Blank padding left when hiding spot 1. (Element .mt-1.mb-1)
 ! * 1st spot
-github.com###feed-item-0 .mt-1.mb-1 > .tmp-px-3:has([data-hydro-click*='"card_type":"TRENDING_REPOSITORY"']:is([href^="/anthropics/claude"], [href^="/Lum1104/Understand-Anything"]))
+github.com###feed-item-0 .mt-1.mb-1 > .tmp-px-3:has([data-hydro-click*='"card_type":"TRENDING_REPOSITORY"']:is([href^="/anthropics/claude"], [href^="/Lum1104/Understand-Anything"], [href="/rohitg00/ai-engineering-from-scratch"]))
 ! * 2nd spot
-github.com###feed-item-0 #feed-item-0:has([data-hydro-click*='"card_type":"TRENDING_REPOSITORY"']:is([href^="/anthropics/claude"], [href^="/Lum1104/Understand-Anything"]))
+github.com###feed-item-0 #feed-item-0:has([data-hydro-click*='"card_type":"TRENDING_REPOSITORY"']:is([href^="/anthropics/claude"], [href^="/Lum1104/Understand-Anything"], [href="/rohitg00/ai-engineering-from-scratch"]))
 
 ! -- https://github.com/settings/copilot/features (Copilot features in account settings)
 ! Promo banner for GitHub Copilot (Doesn't appear for all users)
