@@ -342,6 +342,13 @@ www.bunnings.com.au##[aria-label="Ask Bunnings AI"]
 ! ======================
 ! == Business Insider ==
 ! ======================
+! "Your Briefing" button
+www.businessinsider.com##.catch-me-up-quickly
+
+! -- https://www.businessinsider.com/answers#test
+! Search summary
+www.businessinsider.com##.js-summary-section
+
 ! -- https://www.businessinsider.com/aging-retirement-vibe-coding-ai-lovable-chatgpt-claude-security-cameras-2026-3
 www.businessinsider.com##.ai-summary-questions
 
