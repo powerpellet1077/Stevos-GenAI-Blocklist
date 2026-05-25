@@ -2941,13 +2941,10 @@ youtube.com##yt-video-description-youchat-section-view-model
 www.youtube.com###video-summary
 m.youtube.com##ytm-expandable-metadata-renderer:has(.expandableMetadataRendererCollapsedLeftSectionSummary)
 ! "Ask" button below video
-! * Filters for Arabic, English, Hindi, Korean, Portuguese, & Spanish
-www.youtube.com##yt-button-view-model:has([aria-label="طرح سؤال"], [aria-label="Ask"], [aria-label="पूछें"], [aria-label="질문하기"], [aria-label="Perguntar"], [aria-label="Preguntar"])
-m.youtube.com##.ytSpecButtonViewModelHost:has(> [aria-label="طرح سؤال"], [aria-label="Ask"], [aria-label="पूछें"], [aria-label="질문하기"], [aria-label="Perguntar"], [aria-label="Preguntar"])
+www.youtube.com##yt-button-view-model:has(> .you-chat-entrypoint-button)
+m.youtube.com,www.youtube.com##.you-chat-entrypoint-button
 ! Floating "Ask about this video" button over video
 www.youtube.com##.ytp-suggested-action-badge[aria-label="Ask about this video"]
-! Fullscreen "Ask" button
-www.youtube.com##.ytp-fullscreen-quick-actions button[aria-label="Ask"]
 
 ! Auto-dubbed audio languages
 ! * Switch to non-dubbed audio language automatically. Removes audio-track submenu from settings if
