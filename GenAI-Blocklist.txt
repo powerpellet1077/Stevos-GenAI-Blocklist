@@ -146,6 +146,7 @@ americanbanker.com##.miso-page-header-search
 ! AI Answer
 www.americanbanker.com##.miso-hybrid-search-combo__disclaimer
 www.americanbanker.com##.miso-hybrid-search-combo__grid-answer
+||api-edge.askmiso.com/v1/ask/questions/$xhr,domain=www.americanbanker.com
 ! Remove sparkle from search icon
 www.americanbanker.com#%#//scriptlet('trusted-set-attr', 'use[href="#miso-arizent-icon-ai-search"]', 'href', '#icon-magnify')
 
