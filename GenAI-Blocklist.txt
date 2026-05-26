@@ -248,7 +248,10 @@ www.bing.com###b-scopeListItem-copilotsearch
 www.bing.com###b-scopeListItem-conv
 ! "Copilot Search" summary box at top of search
 www.bing.com##.b_ans:has(> #copans_container)
+! * Block requests
+||www.bing.com/cmc/fetch$xhr,domain=www.bing.com
 ! AI generated summary
+! * Might not be needed anymore?
 www.bing.com###b_wpt_container_ml
 ! "Ask a follow-up" at bottom of page
 www.bing.com###b_copilot_search_container
