@@ -250,7 +250,6 @@ www.bing.com###b-scopeListItem-copilotsearch
 www.bing.com###b-scopeListItem-conv
 ! "Copilot Search" summary box at top of search
 www.bing.com##.b_ans:has(> #copans_container)
-! * Block requests
 ||www.bing.com/cmc/fetch$xhr,domain=www.bing.com
 ! AI generated summary
 ! * Might not be needed anymore?
@@ -316,7 +315,7 @@ search.brave.com###submit-llm-button
 search.brave.com##.tab-item:has(> a[href^="/ask"])
 ! AI Answer text
 search.brave.com###llm-snippet
-! Block generating answer for non-pre-generated responses
+! * Block generating answer for non-pre-generated responses
 ||search.brave.com/api/chatllm/with_ask$xhr,domain=search.brave.com
 
 ! ============
