@@ -171,6 +171,13 @@ www.google.com,www.google.*##.pXDBqb:has(> [href^="https://labs.google.com/searc
 docs.google.com##.goog-menuitem:has([aria-label^="Convert to video"])
 docs.google.com###content-library-rail-convert-to-video-element
 
+! =================
+! == How-to Geek ==
+! =================
+! -- https://www.howtogeek.com/repurposed-old-router-saved-20-dollars/
+! AI Sparkle in left sidebar
+www.thegamer.com,www.howtogeek.com##.i-sensa
+
 ! ======================
 ! == Insight Software ==
 ! ======================
