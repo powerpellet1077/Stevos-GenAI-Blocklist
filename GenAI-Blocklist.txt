@@ -1875,11 +1875,9 @@ www.microsoft.com##reimagine-featured:has(reimagine-heading-block#heading-block-
 ! Carousel at bottom of page - "Protecting biodiversity with AI" card (no longer in use?)
 www.microsoft.com##reimagine-carousel-item:has(a[data-bi-hn="Protecting biodiversity with AI"])
 
-! -- https://www.microsoft.com/en-us/edge/
+! -- https://www.microsoft.com/en-us/edge/features/split-screen
 ! "Coilot" tab in header nav
 www.microsoft.com##.common-nav__menu-item:has([data-bi-id="Link-Navigate-Navbar-Copilot"])
-
-! -- https://www.microsoft.com/en-us/edge/features/split-screen
 ! "Learn with Copilot" button
 www.microsoft.com##[data-bi-id="Button-Cta-SplitScreen-LearnWithCopilot"]
 
@@ -1888,11 +1886,6 @@ www.microsoft.com##[data-bi-id="Button-Cta-SplitScreen-LearnWithCopilot"]
 www.microsoft.com##.uca-assistant-drawer-button, .uca-assistant-drawer-panel
 ! "Ask Microsoft" in middle of page
 www.microsoft.com##.chatgpt-banner
-
-! -- https://www.microsoft.com/en-us/microsoft-copilot/organizations/ (About Copilot)
-! "Try Copilot Chat" in primary & secondary headers
-www.microsoft.com###c-shellmenu_custom_button_solid_newtab_tryCopilotChat_right
-www.microsoft.com##.btn[data-bi-ecn="Try Copilot Chat"]
 
 ! -- https://www.microsoft.com/en-us/microsoft-365
 ! Copilot promo banner
