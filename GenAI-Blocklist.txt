@@ -1836,13 +1836,11 @@ www.microsoft.com,cloud.microsoft##:is(#shellmenu_2, #shellmenu_2-mo)[href="http
 www.microsoft.com##.uhf-nav-link[href="https://copilot.microsoft.com/"]
 ! "All Microsoft" menu options
 ! * Microsoft AI
-www.microsoft.com,www.xbox.com##.uhf-dropdown-link[href="https://www.microsoft.com/en-us/ai?icid=DSM_All_AI"]
-support.microsoft.com##.js-subm-uhf-nav-link[href="https://www.microsoft.com/en-us/ai?icid=DSM_All_AI"]
+support.microsoft.com,www.microsoft.com,www.xbox.com##li > a[href="https://www.microsoft.com/en-us/ai?icid=DSM_All_AI"]
 ! * Support for AI marketplace apps
-www.xbox.com##.uhf-dropdown-link[href="https://www.microsoft.com/software-development-companies/offers-benefits/isv-success?icid=DSM_All_SupportAIMarketplace&ocid=cmm3atxvn98"]
-www.microsoft.com,support.microsoft.com##.js-subm-uhf-nav-link[href="https://www.microsoft.com/software-development-companies/offers-benefits/isv-success?icid=DSM_All_SupportAIMarketplace&ocid=cmm3atxvn98"]
+support.microsoft.com,www.microsoft.com,www.xbox.com##li > a[href="https://www.microsoft.com/software-development-companies/offers-benefits/isv-success?icid=DSM_All_SupportAIMarketplace&ocid=cmm3atxvn98"]
 ! * Copilot tab
-support.microsoft.com##.js-subm-uhf-nav-link[href="https://copilot.microsoft.com/"]
+support.microsoft.com,www.xbox.com##li > a[href="https://copilot.microsoft.com/"]
 
 ! Footer
 cloud.microsoft,support.microsoft.com,www.microsoft.com##li:has(> [href*="/microsoft-copilot/"])
