@@ -1495,15 +1495,6 @@ www.homedepot.com###beyond_bought_together
 ! Review summary
 www.homedepot.com###magic-apron-review-summary
 
-! =================
-! == How-To Geek ==
-! =================
-! -- https://www.howtogeek.com/repurposed-old-router-saved-20-dollars/
-! AI summary button in left sidebar
-www.thegamer.com,www.howtogeek.com##.qa-action-list.sensa-features
-! AI summary button in header on small page sizes
-www.thegamer.com,www.howtogeek.com##.action-bar-ai-feature
-
 ! ================
 ! == HP Support ==
 ! ================
@@ -2620,9 +2611,21 @@ member.uhc.com##[data-test-id="global-nav-ask-ai"]
 ! == UPS ==
 ! =========
 ! -- https://www.ups.com/track (Track a package)
-!  Bottom right - "Ask UPS" chat button & chat window
+! Bottom right - "Ask UPS" chat button & chat window
 ups.com###digital-assistant-launcher
 ups.com###WACContainer
+
+! ============
+! == Valnet ==
+! ============
+! Sites found via https://www.valnetinc.com/en/our-brands
+! * May also need to add backyardboss.net, fextralife.com, and therichest.com. Formatting was broken when initially checking
+
+! -- https://www.howtogeek.com/repurposed-old-router-saved-20-dollars/
+! AI summary button in left sidebar
+androidpolice.com,backyardboss.net,carbuzz.com,cbr.com,collider.com,dualshockers.com,fextralife.com,footballfancast.com,footballleagueworld.co.uk,gamerant.com,givemesport.com,hardcoregamer.com,hotcars.com,howtogeek.com,makeuseof.com,movieweb.com,pocket-lint.com,screenrant.com,simpleflying.com,thegamer.com,therichest.com,thesportster.com,thethings.com,thetravel.com,topspeed.com,xda-developers.com##.sensa-features
+! AI summary button in header on small page sizes
+androidpolice.com,backyardboss.net,carbuzz.com,cbr.com,collider.com,dualshockers.com,fextralife.com,footballfancast.com,footballleagueworld.co.uk,gamerant.com,givemesport.com,hardcoregamer.com,hotcars.com,howtogeek.com,makeuseof.com,movieweb.com,pocket-lint.com,screenrant.com,simpleflying.com,thegamer.com,therichest.com,thesportster.com,thethings.com,thetravel.com,topspeed.com,xda-developers.com##.action-bar-ai-feature
 
 ! ===========
 ! == Vanta ==

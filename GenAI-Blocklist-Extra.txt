@@ -171,13 +171,6 @@ www.google.com,www.google.*##.pXDBqb:has(> [href^="https://labs.google.com/searc
 docs.google.com##.goog-menuitem:has([aria-label^="Convert to video"])
 docs.google.com###content-library-rail-convert-to-video-element
 
-! =================
-! == How-to Geek ==
-! =================
-! -- https://www.howtogeek.com/repurposed-old-router-saved-20-dollars/
-! AI Sparkle in left sidebar
-www.thegamer.com,www.howtogeek.com##.i-sensa
-
 ! ======================
 ! == Insight Software ==
 ! ======================
@@ -310,6 +303,16 @@ www.theverge.com##[aria-label="Drawer Navigation"] li:has(> [aria-label="Collaps
 ! -- https://time.com/
 ! AI category in header
 time.com##li:has(div > [href="#id-ai-0"])
+
+! ============
+! == Valnet ==
+! ============
+! Sites found via https://www.valnetinc.com/en/our-brands
+! * May also need to add backyardboss.net, fextralife.com, and therichest.com. Formatting was broken when initially checking
+
+! -- https://www.howtogeek.com/repurposed-old-router-saved-20-dollars/
+! AI Sparkle in left sidebar
+androidpolice.com,backyardboss.net,carbuzz.com,cbr.com,collider.com,dualshockers.com,fextralife.com,footballfancast.com,footballleagueworld.co.uk,gamerant.com,givemesport.com,hardcoregamer.com,hotcars.com,howtogeek.com,makeuseof.com,movieweb.com,pocket-lint.com,screenrant.com,simpleflying.com,thegamer.com,therichest.com,thesportster.com,thethings.com,thetravel.com,topspeed.com,xda-developers.com##.i-sensa
 
 ! ===============
 ! == X/Twitter ==
